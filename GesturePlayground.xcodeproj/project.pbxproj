@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1583832327C885EB003E00B3 /* SurroundSnapArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1583832227C885EB003E00B3 /* SurroundSnapArea.swift */; };
 		15A40F1C2706B417002C6246 /* GesturePlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A40F1B2706B417002C6246 /* GesturePlaygroundApp.swift */; };
-		15A40F1E2706B417002C6246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A40F1D2706B417002C6246 /* ContentView.swift */; };
+		15A40F1E2706B417002C6246 /* TrailingSnapArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A40F1D2706B417002C6246 /* TrailingSnapArea.swift */; };
 		15A40F202706B419002C6246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A40F1F2706B419002C6246 /* Assets.xcassets */; };
 		15A40F232706B419002C6246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A40F222706B419002C6246 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1583832227C885EB003E00B3 /* SurroundSnapArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundSnapArea.swift; sourceTree = "<group>"; };
 		15A40F182706B417002C6246 /* GesturePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A40F1B2706B417002C6246 /* GesturePlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePlaygroundApp.swift; sourceTree = "<group>"; };
-		15A40F1D2706B417002C6246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15A40F1D2706B417002C6246 /* TrailingSnapArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingSnapArea.swift; sourceTree = "<group>"; };
 		15A40F1F2706B419002C6246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A40F222706B419002C6246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				15A40F1B2706B417002C6246 /* GesturePlaygroundApp.swift */,
-				15A40F1D2706B417002C6246 /* ContentView.swift */,
+				15A40F1D2706B417002C6246 /* TrailingSnapArea.swift */,
+				1583832227C885EB003E00B3 /* SurroundSnapArea.swift */,
 				15A40F1F2706B419002C6246 /* Assets.xcassets */,
 				15A40F212706B419002C6246 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A40F1E2706B417002C6246 /* ContentView.swift in Sources */,
+				15A40F1E2706B417002C6246 /* TrailingSnapArea.swift in Sources */,
+				1583832327C885EB003E00B3 /* SurroundSnapArea.swift in Sources */,
 				15A40F1C2706B417002C6246 /* GesturePlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

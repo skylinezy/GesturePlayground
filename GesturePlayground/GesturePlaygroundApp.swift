@@ -11,7 +11,16 @@ import SwiftUI
 struct GesturePlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                TrailingSnapArea()
+                    .tabItem {
+                        Text("Trailing Snap Area")
+                    }
+                SurroundSnapArea()
+                    .tabItem {
+                        Text("Surrounding Snap Area")
+                    }
+            }
         }
     }
 }
